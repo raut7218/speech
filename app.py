@@ -14,7 +14,7 @@ subprocess.check_call([sys.executable, "-m", "pip", "install", "pytesseract"])
 
 
 # Path to the Tesseract executable (change it if necessary)
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+# pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # Function to extract text from an image
 def extract_text_from_image(image_path, language):
