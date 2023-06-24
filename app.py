@@ -1,4 +1,4 @@
-import pytesseract
+
 from PIL import Image
 import gtts
 import webbrowser
@@ -11,6 +11,8 @@ import sys
 
 # Install pytesseract if not already installed
 subprocess.check_call([sys.executable, "-m", "pip", "install", "pytesseract"])
+
+import pytesseract
 
 
 # Path to the Tesseract executable (change it if necessary)
