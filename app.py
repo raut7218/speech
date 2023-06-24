@@ -6,6 +6,12 @@ import datetime
 import streamlit as st
 import cv2
 import numpy as np
+import subprocess
+import sys
+
+# Install pytesseract if not already installed
+subprocess.check_call([sys.executable, "-m", "pip", "install", "pytesseract"])
+
 
 # Path to the Tesseract executable (change it if necessary)
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
